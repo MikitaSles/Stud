@@ -1,0 +1,31 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Определение элементов -->
+    <xs:element name="results">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="login" type="xs:string"/>
+                            <xs:element name="tests">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="test">
+                                            <xs:complexType>
+                                                <xs:attribute name="name" type="xs:string"/>
+                                                <xs:attribute name="date" type="xs:date"/>
+                                                <xs:attribute name="mark" type="xs:int"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
