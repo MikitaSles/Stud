@@ -1,0 +1,11 @@
+10
+Product1 500 5 10 1
+Product2 800 3 5 2
+Product3 1200 2 0 3
+Product4 2500 4 20 4
+Product5 1500 6 15 5
+Product6 900 7 8 6
+Product7 1000 2 12 0
+Product8 300 10 5 1
+Product9 700 3 0 2
+Product10 400 8 10 3
